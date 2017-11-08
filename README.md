@@ -1,0 +1,1 @@
+# Template for creating standalone Python applications for Windows using embedded Python

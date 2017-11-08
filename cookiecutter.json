@@ -1,0 +1,24 @@
+{
+  "project_name": "My New Project",
+  "year": "{% now 'local', '%Y' %}",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "description": "",
+  "version": "0.0.1",
+  "url": "http://http://www.library.illinois.edu/dccdocs/{{cookiecutter.project_slug}}",
+  "maintainer": "Henry Borchers",
+  "maintainer_email": "hborcher@illinois.edu",
+  "author": "University of Illinois at Urbana Champaign",
+  "author_email": "hborcher@illinois.edu",
+  "include_docs":"y",
+  "include_tests":"y",
+  "license_file":"",
+  "module_name":"",
+  "GUIDs":{
+    "upgrade_code": "",
+    "shortcut": "",
+    "project_code": ""
+  },
+  "_extensions": [
+    "jinja2_time.TimeExtension"
+  ]
+}
