@@ -3,7 +3,7 @@
   "project_slug": "",
   "description": "",
   "version": "0.0.1",
-  "url": "http://http://www.library.illinois.edu/dccdocs/{{cookiecutter.project_slug}}",
+  "url": "http://www.library.illinois.edu/dccdocs/{{cookiecutter.project_slug}}",
   "include_docs":"y",
   "include_tests":"y",
   "license_file":"",
